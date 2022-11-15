@@ -1,3 +1,23 @@
+// Cores de forma root
+$cor-header: #06283D;
+$cor-nav: #1363DF;
+$cor-principal: #DFF6FF;
+$cor-secundaria: #47B5FF;
+
+@mixin corpoBtn {
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,16 +25,30 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     width: 100%;
-}
 
-header {
-    width: 100%;
-    height: 100vh;
-    background-color: #000000;
-}
+    header {
+        @include flexCenter();
+        background-color: $cor-header;
+        width: 100%;
+        height: 100vh;
 
-nav {
-    height: 100vh;
-    width: 100%;
-    background-color: #ff0000;
+        button {
+            @include corpoBtn();
+            color: $cor-principal;
+            background-color: $cor-nav;
+        }
+    }
+
+    nav {
+        @include flexCenter();
+        background-color: $cor-nav;
+        height: 100vh;
+        width: 100%;
+
+        button {
+            @include corpoBtn();
+            color: $cor-secundaria;
+            background-color: $cor-header;
+        }
+    }
 }
