@@ -1,5 +1,6 @@
-html,
-body {
+@import './variaveis';
+html, body {
     box-sizing: border-box;
-    font-family: $fonte;
+    background-color: $cor-quaternaria;
+    font-family: $fonte-roboto;
 }
