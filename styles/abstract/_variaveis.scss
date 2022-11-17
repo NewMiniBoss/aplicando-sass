@@ -3,7 +3,17 @@
 $fonte-roboto: 'Roboto', sans-serif;
 
 // cores
-$cor-primaria: #FAF7F0;
-$cor-secundaria: #CDFCF6;
-$cor-terciaria: #BCCEF8;
-$cor-quaternaria: #98A8F8;
+$cor-primaria: #5800FF;
+$cor-secundaria: #0096FF;
+$cor-terciaria: #00D7FF;
+$cor-quaternaria: #72FFFF;
+
+// tamanho das fontes
+$tamanho-texto: 3rem;
+
+// funcoes
+@mixin flexCentralizada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
