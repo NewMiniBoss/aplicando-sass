@@ -1,12 +1,11 @@
 ## SASS
-É um robô que foi feito para salvar o planeta Terra de uma invasão alienígena. 
+Sass é uma linguagem de folhas de estilo.
 
 ## Conhecimentos adquiridos 📚
-- Estilize suas aplicações web com Sass
-- Aprenda a dar super poderes ao CSS
-- Modularize suas folhas de estilo sem perder a performance da aplicação
-- Aplique o princípio de software DRY em suas folhas de estilos
-- Crie funções, validações, variáveis em seus estilos
+- estilizei aplicaçar na web o Sass
+- modularizei folhas de estilo sem perder a performance da aplicação
+- apliquee o princípio de software DRY em suas folhas de estilos
+- criei funções, validações, variáveis em seus estilos
 
 ## Preview 🎥
 
