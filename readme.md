@@ -8,7 +8,7 @@ Sass é uma linguagem de folhas de estilo.
 - criei funções, validações, variáveis em seus estilos
 
 ## Preview 🎥
-
+![spa](https://user-images.githubusercontent.com/80296330/202433219-80b8d5a7-fa9f-4083-8849-da848afd7374.png)
 
 ## Acessar o projeto e rodar 📁
 
